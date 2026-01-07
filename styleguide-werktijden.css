@@ -1,0 +1,104 @@
+*{
+  font-family: inter, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+  /* Variablen kleuren  */
+  --primary-color: hsl(161, 94%, 30%);
+  --container-color: hsl(0, 0%, 100%);
+  --section-background: hsl(210, 20%, 98%);
+
+  /* Variablen kleuren  (tekst + border) */
+  --light-text:hsl(0, 0%, 100%);
+  --dark-text: hsl(219, 17%, 27%);
+  --border-color: hsl(220, 13%, 91%);
+
+  /* Variabelen Typografie */
+  --font-size-h1: 4.5rem;
+  --font-size-h2: 1.5rem;
+  --font-size-h3: 1rem;
+  --font-size-p-s: 1rem;
+  --font-size-p-m: 1.3rem;
+  --font-size-p-l: 1.5rem;
+  --font-size-p-xl: 2rem;
+
+  --font-weight-light: 400;
+  --font-weight-normal: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 900;
+}
+
+@layer styleguide {
+
+    /* Kleuren */
+    .primary-color{
+      background-color: var(--primary-color);
+    }
+
+    .container-color{
+      background-color: var(--container-color);
+    }
+
+    .section-background{
+      background-color: var(--section-background);
+    }
+
+    .light-text{
+      background-color: var(--light-text);
+    }
+
+    .dark-text{
+      background-color: var(--dark-text);
+    }
+
+    .border-color{
+      background-color: var(--border-color);
+    }
+
+    /* Typografie */
+    .heading-1 {
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--dark-text);
+    }
+
+    .heading-2 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--dark-text);
+    }
+
+    .heading-3 {
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--dark-text);
+    }
+
+    .heading-4 {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--dark-text);
+    }
+
+    .heading-5 {
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--dark-text);
+    }
+
+    .heading-6 {
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--dark-text);
+    }
+}
+
