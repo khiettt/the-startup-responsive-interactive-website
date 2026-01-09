@@ -15,8 +15,8 @@ h6 {
 :root{
   /* Variablen kleuren  */
   --primary-color: hsl(161, 94%, 30%);
-  --container-color: hsl(0, 0%, 100%);
-  --section-background: hsl(210, 20%, 98%);
+  --primary-background-color: hsl(0, 0%, 100%);
+  --secondary-background-color: hsl(210, 20%, 98%);
 
   /* Variablen kleuren  (tekst + border) */
   --light-text:hsl(0, 0%, 100%);
