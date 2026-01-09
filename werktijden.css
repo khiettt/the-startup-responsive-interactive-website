@@ -1,0 +1,13 @@
+.header-werktijden,
+.header-text{
+    display: flex;
+    justify-content: center;
+}
+.werktijden-groen{
+    color: hsl(161, 94%, 30%);
+}
+card-container{
+    display: flex;
+    flex-direction: column;
+    
+}
