@@ -1,11 +1,24 @@
 *{
     box-sizing: border-box;
+    border: 0 solid var(--border-color);
     line-height: 1.5;
+    /* even na vragen */
+    scroll-margin: 5rem;
+}
+html {
+    interpolate-size: allow-keywords;
+}
+body{
+    margin-top: 40px;
 }
 .header-werktijden,
 .header-text{
     display: flex;
     justify-content: center;
+    line-height: 1.5em;
+    min-width: 48ch;
+    max-width: 72ch;
+    font-size: 16px;
 }
 .header-text{
     background-color: violet;
@@ -71,19 +84,16 @@ h1{
     width: 6em;
 }
 details{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     margin-top: 40px;
+    overflow: hidden;
 }
 
 details::details-content{
-    block-size: 0;
+    /* block-size: 0;
+    transition: block-size 1s; */
 }
-
-details[open]::details-content{
-    block-size: auto;
-    transition: block-size 3s;
+details:open::details-content{
+    /* block-size: auto; */
 }
 
 summary{
@@ -111,6 +121,7 @@ details[open] summary::after {
     cursor: pointer;
     border-radius: 8px;
     width: 115px;
+    margin: auto;
     padding: 10px 10px 10px 10px;
     transition: 0.6s;
 
@@ -173,6 +184,8 @@ ul{
 }
 
 /* detail page */
+
+/* formulier */
 input[type=text], select, textarea {
   width: 100%; 
   padding: 12px; 
@@ -183,7 +196,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
+
 input[type=submit] {
     border: 0px var(--border-color);
     background-color: var(--primary-color);
@@ -204,9 +217,15 @@ input[type=submit] {
     }
 }
 
-/* Add a background color and some padding around the form */
+
 .container-apply {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+/* Section information "klantadviseur" */
+.section-info-klantadviseur{
+    display: block;
+    min-height: 1px;
+    width: 100%;
 }
