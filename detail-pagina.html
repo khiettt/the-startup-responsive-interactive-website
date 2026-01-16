@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klantadviseur</title>
+    <link rel="stylesheet" href="styleguide-werktijden.css">
     <link rel="stylesheet" href="werktijden.css">
 </head>
 <body>
@@ -19,8 +20,6 @@
         <p>€2.500 - €4000 per maand</p>
     </div>
     <p class="info">Heb jij al ervaring in klantcontact binnen een B2B-omgeving en ben je op zoek naar een nieuwe uitdaging waarin je jouw expertise kunt inzetten? Bij Werktijden.nl zijn we op zoek naar een Klantadviseur die niet alleen de klantvraag snel kan oplossen, maar ook actief bijdraagt aan het optimaliseren van klantprocessen en het verder uitbreiden van ons klantenbestand.</p>
-    <!-- formulier maken -->
-    <a href="#">Solliciteer nu</a>
 
     <section>
         <p style="font-size: 16px; color: #000000;">
@@ -52,6 +51,24 @@
         <strong>Werken.nl</strong>
         bieden we een dynamische werkomgeving waar jouw kennis en ervaring niet alleen gewaardeerd, maar ook verder ontwikkeld worden. Solliciteer vandaag nog en laat ons weten hoe jij als Medior Klantadviseur het verschil kunt maken!
         </p>
+
+        <!-- formulier -->
+        <article class="container-apply">
+            <h2>Solliciteer nu</h2>
+            <form action="action-apply">
+
+                <label for="fname"></label>
+                <input type="text" id="fname" name="Voornaam" placeholder="Voornaam">
+                
+                <label for="lname"></label>
+                <input type="text" id="lname" name="Achternaam" placeholder="Achternaam">
+
+                <label for="Motivation letter">Motivatie Brief</label>
+                <textarea id="motivation-letter" name="motivation-letter" placeholder="Schrijf hier je motivatie brief" style="height:200px"></textarea>
+
+                <input type="submit" value="Verstuur">
+            </form>
+        </article>
     </section>
 </body>
 </html>
