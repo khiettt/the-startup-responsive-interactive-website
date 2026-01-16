@@ -4,37 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vacature</title>
+    <link rel="stylesheet" href="styleguide-werktijden.css">
     <link rel="stylesheet" href="werktijden.css">
 </head>
 <body>
-    <div class="header-werktijden">
-        <h1>Werken bij Werktijden.nl
-            <span class="werktijden-groen"></span>
+    <article class="header-werktijden">
+        <h1>Werken bij
+            <span class="werktijden-green">Werktijden.nl</span>
         </h1>
-    </div>
-    <div class="header-text">
+    </article>
+
+    <article class="header-text">
         bekijk de openstaande vacatures bij Werktijden.nl en ontdek de mogelijkheden voor jouw carriere
-    </div>
+    </article>
+
     <section class="card-container">
-        <ul>
-            <li :marker>
-                Nieuw
-            </li>
-        </ul>
+        <img src="img/Scherm­afbeelding 2026-01-10 om 09.10.29.png" width="405px" alt="">
+        <article class="job-header">
+            <article class="job-title">
+                <h2>Klantadviseur</h2>
+                <p>werktijden.nl B.V. Amsterdam</p>
+            </article>
+            <p class="border-new">
+                <span class="title-new">Nieuw</span>
+            </p>
+        </article>
 
-        <h2>Klantadviseur</h2>
-        <p>werktijden.nl B.V. Amsterdam</p>
+        <article class="employment-primary-info">
+            <ul>
+                <li>
+                    <span class="primary-info">Fulltime</span>
+                    <span class="primary-info">Parttime</span>
+                    <span class="primary-info">ma-vr</span>
+                </li>
+            </ul>
+        </article>
+        <details>
+            <summary class="click-for-more"></summary>
 
-        <ul>
-            <li :marker>Fulltime</li>
-            <li :marker>Parttime</li>
-            <li :marker>ma-vr</li>
-            <li :marker>32-40 uur</li>
-            <li :marker>€2.500 - €4000 per maand</li>
-        </ul>
+            <p class="info-vacancy">Ben jij op zoek naar een functie waarin jouw communicatieve vaardigheden echt tot zijn recht komen? Heb je ervaring in klantcontact binnen een B2B-omgeving of ben je bereid om jezelf snel in deze rol te ontwikkelen? Dan is de rol van Junior Klantadviseur bij Werktijden.nl precies wat je zoekt.</p>
+            
+            <article class="employment-secondary-info">
+            <ul>
+                <li>
+                    <span class="secondary-info">€2.500 - €4000 per maand</span>
+                    <span class="secondary-info"> 32-40 uur</span>
+                </li>
+            </ul>
+            </article>
 
-        <p>Ben jij op zoek naar een functie waarin jouw communicatieve vaardigheden echt tot zijn recht komen? Heb je ervaring in klantcontact binnen een B2B-omgeving of ben je bereid om jezelf snel in deze rol te ontwikkelen? Dan is de rol van Junior Klantadviseur bij Werktijden.nl precies wat je zoekt.</p>
-        <a href="detail-pagina.html">Vacature bekijken</a>
+            <a class="view-vacancy" href="detail-pagina.html">Vacature bekijken</a> 
+        </details>
     </section>
 </body>
 </html>
