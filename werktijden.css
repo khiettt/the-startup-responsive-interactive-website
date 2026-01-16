@@ -1,13 +1,212 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
 .header-werktijden,
 .header-text{
     display: flex;
     justify-content: center;
 }
-.werktijden-groen{
-    color: hsl(161, 94%, 30%);
+.header-text{
+    background-color: violet;
+    line-height: 1.5em;
+    min-width: 48ch;
+    max-width: 72ch;
+    font-size: 16px;
+    font-weight: 500;
 }
-card-container{
+.werktijden-green{
+    color: var(--primary-color);
+}
+h1{
+    color: var(--dark-text);
+}
+
+.card-container{
+    width: 450px;
+    border: 2px solid var(--primary-color);
+    border-radius: 1em;
+    box-shadow: 2px 2px 2px 2px var(--border-color);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    margin-top: 5em;
+}
+.job-header{
+    color: var(--dark-text);
     display: flex;
+    margin: 5px;
+    margin-left: 0;
+    gap: 70px;
+}
+.title-new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    border: 1px solid var(--border-color); 
+    border-radius: 1.5em;
+    width: 7em;
+    padding: 10px 10px 10px 10px;
+    background-color: #EBF7F3;
+}
+.job-title p{
+    color: #5F5F62;
+}
+
+.employment-primary-info li{
+    display: flex;
+    margin: 5px;
+    gap: 10px;
+}
+.primary-info{
+    border: 0px solid var(--border-color);
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    font-weight: 400;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    align-self: center;
+    font-weight: 400;
+    width: 6em;
+}
+details{
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    
+    margin-top: 40px;
+}
+
+details::details-content{
+    block-size: 0;
+}
+
+details[open]::details-content{
+    block-size: auto;
+    transition: block-size 3s;
+}
+
+summary{
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+  /* Hides marker on Safari */
+  display: none;
+}
+summary::after {
+  content:"Toon meer";
+}
+
+details[open] summary::after {
+  content:"Toon minder";
+
+}
+
+.click-for-more{
+    background-color: var(--light-text);
+    color: var(--primary-color);
+    border: 2px var(--secondary-background-color);
+    box-shadow: 1px 1px 1px 1px var(--border-color);
+    cursor: pointer;
+    border-radius: 8px;
+    width: 115px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.6s;
+
+    &:hover{
+        background-color: var(--primary-color);
+        color: var(--light-text);
+    }
+}
+
+ul{
+    list-style: none;
+}
+.info-vacancy{
+    color: var(--dark-text);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 16px;
+    min-width: 48ch;
+    max-width: 72ch;
+    font-weight: 400;
+}
+.employment-secondary-info{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    gap: 10px;
+
+}
+.secondary-info{
+    border: 0px solid var(--border-color);
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    align-self: center;
+    width: 6em;
+    /* display: flex;
+    margin: 5px;
+    gap: 10px; */
+}
+.view-vacancy{
+    text-decoration: none;
+    background-color: var(--light-text);
+    color: var(--primary-color);
+    border: 2px var(--secondary-background-color);
+    box-shadow: 1px 1px 1px 1px var(--border-color);
+    cursor: pointer;
+    border-radius: 8px;
+    width: 115px;
+    margin: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.6s;
+
+    &:hover{
+        background-color: var(--primary-color);
+        color: var(--light-text);
+    }
+}
+
+/* detail page */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid var(--border-color); 
+  border-radius: 4px;
+  margin-top: 10px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    border: 0px var(--border-color);
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    font-weight: 400;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    align-self: center;
+    font-weight: 400;
+    width: 6em;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px var(--border-color);
+    transition: 0.6s;
+
+    &:hover{
+        background-color: #EBF7F3;
+        color: var(--primary-color)
+    }
+}
+
+/* Add a background color and some padding around the form */
+.container-apply {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
