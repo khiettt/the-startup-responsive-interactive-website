@@ -1,3 +1,7 @@
+/* Mobile min-width: 390 px */
+/* tablet min-width: 768px */
+/* laptop min-width: 1024 */
+
 *{
     box-sizing: border-box;
     border: 0 solid var(--border-color);
@@ -10,6 +14,18 @@ html {
 }
 body{
     margin-top: 40px;
+    /* mobile */
+    @media (min-width: 390px) {
+        padding-left: 0;
+    }
+    /* tablet */
+    @media (min-width: 750px){
+        padding-left: 0;
+    }
+    /* laptop */
+    @media (min-width: 1024px ){
+        padding-left: 13em;
+    }
 }
 .header-werktijden,
 .header-text{
