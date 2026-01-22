@@ -241,6 +241,44 @@ input[type=submit] {
 }
 /* Section information "klantadviseur" */
 .section-info-klantadviseur{
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+footer{
+    margin-top: auto;
+    background-color: #101827;
+    padding: 60px 10%;
+    color: var(--primary-color);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    text-decoration: none;
+}
+.footer-col h3{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer-col h3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 40px;
+}
+ul li a{
     display: block;
     min-height: 1px;
     width: 100%;
