@@ -56,6 +56,23 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 5px;
+
+    @media (max-width: 480px){
+        .card-jobs {
+            width: 90%;
+            max-width: 320px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .img-logo{
+            width: 90%;
+            max-width: 420px;
+            margin: auto;
+        }
+    }
+}
+.img-logo{
+    width:405px;
 }
 
 .card-jobs{
@@ -259,6 +276,21 @@ ul{
     font-size: 16px;
     min-width: 48ch;
     max-width: 72ch;
+
+    @media (max-width: 650px){
+        width: 90%;
+
+        .function-proper-info{
+            padding: 0.6em 0.6em;
+            font-size: 13px;
+        }
+        @media (min-width: 350px){
+            .function-proper-info{
+                padding: 0.6em 0.6em;
+                font-size: 11px;
+            }
+        }
+    }
 }
 /* formulier */
 input[type=text], select, textarea {
@@ -328,6 +360,14 @@ footer{
     background-color: #101827;
     padding: 60px 10%;
     color: var(--primary-color);
+
+    @media (max-width: 760px){
+
+        nav{
+            display: block;
+            flex-wrap: nowrap;
+        }
+    }
 }
 nav{
     display: flex;
