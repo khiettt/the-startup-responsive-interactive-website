@@ -105,6 +105,12 @@ h1{
     padding: 10px 10px 10px 10px;
     background-color: #ebf7f3;
 }
+/* animation */
+.rotate{
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
 /* sales support medewerker (urgent) */
 .title-urgent{
     display: flex;
