@@ -24,13 +24,14 @@ h6 {
   --border-color: hsl(220, 13%, 91%);
 
   /* Variabelen Typografie */
-  --font-size-h1: 4.5rem;
-  --font-size-h2: 1.5rem;
-  --font-size-h3: 1rem;
-  --font-size-p-s: 1rem;
-  --font-size-p-m: 1.3rem;
-  --font-size-p-l: 1.5rem;
-  --font-size-p-xl: 2rem;
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.5rem;
+
+  --font-size-p-s: 0.875rem;
+  --font-size-p-m: 1 rem;
+  --font-size-p-l: 1.125rem;
+  --font-size-p-xl: 1.25rem;
 
   --font-weight-light: 400;
   --font-weight-normal: 500;
