@@ -34,16 +34,12 @@ html {
 .header-vacture-page{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 .p-text{
     display: flex;
     justify-content: center;
     color: #5f5f62
-    /* line-height: 1.5em;
-    min-width: 48ch;
-    max-width: 72ch;
-    font-size: 16px;
-    font-weight: 500; */
 }
 .werktijden-green{
     color: var(--primary-color);
@@ -379,7 +375,7 @@ nav{
 }
 .footer-col h3{
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-weight: 600;
     font-size: 16px;
 }
