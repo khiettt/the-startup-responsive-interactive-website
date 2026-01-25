@@ -74,6 +74,14 @@ Hieronder zie je een linkje naar me mijn eerste interactie schetsen
 
 https://github.com/khiettt/the-startup-responsive-interactive-website/issues/14#issue-3852314973
 
+### Color contrast test
+
+https://github.com/khiettt/the-startup-responsive-interactive-website/issues/5#issue-3781050460
+
+### Lighthouse test
+
+https://github.com/khiettt/the-startup-responsive-interactive-website/issues/5#issuecomment-3795768386
+
 ## Bronnen
 _Detail element:_
 
@@ -88,6 +96,10 @@ https://codepen.io/kevinpowell/pen/OJKWMwO
 _**Kevin Powell Youtube**_
 
 https://www.youtube.com/watch?v=Vzj3jSUbMtI
+
+_Toegankelijkheid:_
+
+https://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/user-experience-van-html.md
 
 ### Live Link naar me website 
 
